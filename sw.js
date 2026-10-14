@@ -7,7 +7,7 @@
  */
 // Offline support: the app shell is cached, and the dictionary data is fetched fresh whenever
 // there is a connection, falling back to the last copy when there is not.
-const BUILD = 'fe80f7e04d01';
+const BUILD = '2f774fbc694f';
 const CACHE = `combine-${BUILD}`;
 const SHELL = ['./', 'index.html', 'viewer.js', 'viewer.css', 'styles.css', 'manifest.webmanifest',
   'lib/dom.js', 'lib/books.js', 'lib/entry.js', 'lib/sorting.js', 'lib/about.js', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
