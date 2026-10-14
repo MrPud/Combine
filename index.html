@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-accent="platinum">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0b0d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Combine">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Combine Dictionary</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body data-build="fe80f7e04d01">
+  <div class="app" id="app">
+    <nav class="rail" aria-label="Main">
+      <a class="brand" href="#/" aria-label="Combine home">
+        <span class="brand-mark" id="brand-mark"></span>
+        <span class="brand-text"><span class="brand-name">Combine</span><span class="brand-sub">Official dictionary</span></span>
+      </a>
+      <ul class="nav" id="nav"></ul>
+      <p class="rail-foot" id="rail-foot">© 2026 James Poulos. All rights reserved. Combine™<br>The official Combine dictionary. Some definitions from Princeton WordNet and Wiktionary (CC BY-SA).</p>
+    </nav>
+    <div class="main">
+      <header class="topbar">
+        <div class="topbar-left" id="topbar-left"></div>
+        <div class="topbar-right"><div class="clock-mini" id="sync-mini"></div></div>
+      </header>
+      <main id="view" tabindex="-1"></main>
+    </div>
+  </div>
+  <script type="module" src="viewer.js"></script>
+</body>
+</html>
